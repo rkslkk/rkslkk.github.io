@@ -10,6 +10,7 @@ html {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #FFA07A;
 }
 
  .media img {
@@ -25,6 +26,3 @@ html {
     margin-left: -100px;
 }
 
-.closer {
-    background-color: #FFA07A;
-}
