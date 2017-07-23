@@ -2,8 +2,10 @@ function fade() {
     $('.media').hide();
     $('.media').fadeIn(2000);
 }
-
+var debounce = false;
 function colorChange() {
+    if (debounce) return;
+    debounce = true;
     $('.centered').mouseenter(function() {
         $('.centered').fadeTo('fast', .25);
     });
