@@ -1,4 +1,4 @@
 # rkslkk.github.io
-Testing Github Pages!
- Personal Page of Erik Slikkerveer (rkslkk)
- 
+## Erik Slikks Github Page
+--- 
+feel free to check it out: [link](https://rkslkk.github.io)
