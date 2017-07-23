@@ -1,0 +1,30 @@
+html {
+    background-color: #FA8072; 
+    padding: 0;
+    margin: 0;
+}
+.closer {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ .media img {
+    display: inline-block;
+}
+
+.media {
+    position: fixed;
+    text-align: center;
+    top: 40%;
+    left: 47.5%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.closer {
+    background-color: #FFA07A;
+}
