@@ -1,4 +1,3 @@
-var debounce = debounce(function() {
 
 function fade() {
     $('.media').hide();
@@ -42,8 +41,3 @@ $(document).ready(colorChange);
 $(document).ready(colorChange2);
 $(document).ready(colorChange3);
 $(document).ready(closerFade);
-
-    
-}, 250);
-
-window.addEventListener('resize', debounce);
