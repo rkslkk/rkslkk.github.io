@@ -1,56 +1,19 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="utf-8">
-        <title>Slikk</title>
-        <link href="erikIndex.css" type="text/css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="favicon-16x16.png" />
-        <script type="text/javascript">
-            var s ="";
-            
-            while (s!= "mypassword")
-            {
-            s=prompt("please enter your password");
-            if (s=="kneltspurtrupee")
-            {
-            window.location.href="https://rkslkk.github.io/"; //page to redirect if password entered is correct
-            
-            }
-            else
-            {
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+    var s = "";
+
+    while (s != "mypassword") {
+        s = prompt("please enter your password");
+        if (s == "kneltspurtrupee") {
+            window.location.href = "https://rkslkk.github.io/rkslkk.html"; //page to redirect if password entered is correct
+
+        }
+        else {
             alert("Incorrect password-Try again");
-            
-            }
-            }
-            </script>
 
-    </head>
-    
-    <body>
-
-        <div class="media" style="display: none;">
-            <!-- Twitter Image Link -->
-           <a href="https://twitter.com/erikslikk"><img src="twitter-512.png" alt="My Twitter" width="100" height="100" class="centered"></a>
-            <!-- Instagram image Link -->
-           <a href="https://www.instagram.com/erik.slikk/"><img src="instagram.svg" alt="My Instagram" width="100" height="100" class="centered2"></a>
-            <!-- github image link -->
-            <a href="https://github.com/rkslkk"><img src="github-6-xxl.png" alt="My github" width="100" height="100" class="centered3"></a>
-        </div>
-        
-        <div>
-            <a href="https://testing-html.github.io/testingstorage.github.io/">Note App</a>
-        </div>
-        
-        <div class="closer">
-            <h6 id="closerborder">Created by Erik Slikkerveer</h6>
-            <h6>erikslikk41@gmail.com</h6>
-        </div>
-      
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="erikIndex.js"></script>
-       
-
-    </body>
-
-</html>
+        }
+    }
+</script>
+</head>
