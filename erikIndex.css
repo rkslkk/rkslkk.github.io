@@ -1,5 +1,10 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 html {
-    background-color: white; 
+    background-image: url('surf.jpg');
     padding: 0;
     margin: 0;
 }
@@ -10,7 +15,6 @@ html {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #FFA07A;
 }
 
  .media img {
@@ -24,5 +28,9 @@ html {
     left: 47.5%;
     margin-top: -50px;
     margin-left: -100px;
+}
+
+.bgimg {
+    background-image: url('surf.jpg');
 }
 
