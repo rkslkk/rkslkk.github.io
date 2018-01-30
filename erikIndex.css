@@ -5,7 +5,7 @@ body, html {
 
 html {
     background-image: url('surf.jpg');
-    background-size: no-repeat;
+    background-size: cover;
     padding: 0;
     margin: 0;
 }
