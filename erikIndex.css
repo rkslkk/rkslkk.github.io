@@ -5,6 +5,7 @@ body, html {
 
 html {
     background-image: url('surf.jpg');
+    background-size: no-repeat;
     padding: 0;
     margin: 0;
 }
@@ -29,8 +30,3 @@ html {
     margin-top: -50px;
     margin-left: -100px;
 }
-
-.bgimg {
-    background-image: url('surf.jpg');
-}
-
