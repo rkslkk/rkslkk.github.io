@@ -4,19 +4,20 @@ body, html {
 }
 
 html {
+    background-position: center;
     background-image: url('surf.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     padding: 0;
-    margin: 0;
+
+    font-family: Courier New, Courier, monospace;
+    font-size: 25px;
 }
 .closer {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: sans-serif;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    left: 16px;
+    font-size: 10px;
 }
 
  .media img {
@@ -24,10 +25,18 @@ html {
 }
 
 .media {
-    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    top: 40%;
-    left: 47.5%;
-    margin-top: -50px;
-    margin-left: -100px;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+h3, .closer {
+    color: grey;
 }
