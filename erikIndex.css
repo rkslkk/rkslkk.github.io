@@ -40,3 +40,8 @@ hr {
 h3, .closer {
     color: grey;
 }
+
+a {
+    text-decoration: none;
+    outline: none;
+}
