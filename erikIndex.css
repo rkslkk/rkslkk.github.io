@@ -41,7 +41,7 @@ h3, .closer {
     color: grey;
 }
 
-a {
+.media a {
     text-decoration: none;
     outline: none;
 }
