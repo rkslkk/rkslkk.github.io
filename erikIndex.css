@@ -41,7 +41,10 @@ h3, .closer {
     color: grey;
 }
 
-.media a {
+.media a, .media img {
     text-decoration: none;
     outline: none;
+
+    border: 0px;
+    outline:0px;
 }
