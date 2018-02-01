@@ -5,7 +5,7 @@ body, html {
 
 html {
     background-position: center;
-    background-image: url('surf.jpg');
+    background-image: url('../images/surf.jpg');
     background-size: cover;
     position: relative;
     padding: 0;
