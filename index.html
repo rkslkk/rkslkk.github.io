@@ -13,26 +13,38 @@
 
 <body>
 
-
-    <div class="media" style="display: none;">
-
-        <h3>FIND ME HERE</h3>
-        <hr>
-        <br>
-
-        <!-- Twitter Image Link -->
-        <a href="https://twitter.com/erikslikk">
-            <img src="images/twitter-512.png" alt="My Twitter" width="50" height="50" class="centered">
-        </a>
-        <!-- Instagram image Link -->
-        <a href="https://www.instagram.com/erik.slikk/">
-            <img src="images/instagram.svg" alt="My Instagram" width="50" height="50" class="centered2">
-        </a>
-        <!-- github image link -->
-        <a href="https://github.com/rkslkk">
-            <img src="images/github-6-xxl.png" alt="My github" width="50" height="50" class="centered3">
-        </a>
+    <div id="mySideNav" class="sidenav">
+        <a href="javasvript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Test</a>
+        <a href="#">Test</a>
     </div>
+
+    <!-- element to open sideNav -->
+    <span onclick="openNav()" class="spanner">Nav</span>
+
+    <div id="main">
+        <div class="media" style="display: none;">
+
+            <h3>FIND ME HERE</h3>
+            <hr>
+            <br>
+
+            <!-- Twitter Image Link -->
+            <a href="https://twitter.com/erikslikk">
+                <img src="images/twitter-512.png" alt="My Twitter" width="50" height="50" class="centered">
+            </a>
+            <!-- Instagram image Link -->
+            <a href="https://www.instagram.com/erik.slikk/">
+                <img src="images/instagram.svg" alt="My Instagram" width="50" height="50" class="centered2">
+            </a>
+            <!-- github image link -->
+            <a href="https://github.com/rkslkk">
+                <img src="images/github-6-xxl.png" alt="My github" width="50" height="50" class="centered3">
+            </a>
+        </div>
+    </div>
+
+
 
 
     <div class="closer">
@@ -45,6 +57,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- linking the body to my jquery scripts -->
     <script src="scripts/erikIndex.js"></script>
+    <script src="scripts/scripts.js"></script>
 
 
 

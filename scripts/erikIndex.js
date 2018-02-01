@@ -29,6 +29,8 @@ function colorChange() {
     $('.centered3').mouseleave(function() { // leave icon 3
         $('.centered3').fadeTo(.1, 1);
     });
+
+    
 }
 
 $(document).ready(fade, colorChange()); // function call 
