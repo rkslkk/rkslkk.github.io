@@ -93,6 +93,11 @@ h3, .closer {
         padding-top: 15px;
         font-size: 18px;
     }
+
+    #main iframe {
+        height: 75px;
+        width: 75px;
+    }
 }
 
 .button1 {
