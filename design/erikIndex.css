@@ -95,4 +95,24 @@ h3, .closer {
     }
 }
 
+.button1 {
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-align: center;
+    padding: 10px 25px;
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+
+}
+
+.button1:hover {
+    background-color: #664e4e;
+    color: white;
+}
+
+
+
 
