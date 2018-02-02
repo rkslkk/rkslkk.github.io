@@ -96,6 +96,7 @@ h3, .closer {
 }
 
 .button1 {
+    left: 16px;
     border: none;
     text-decoration: none;
     font-size: 16px;
@@ -111,6 +112,12 @@ h3, .closer {
 .button1:hover {
     background-color: #664e4e;
     color: white;
+}
+
+#main .spotify {
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
 
 
