@@ -94,7 +94,7 @@ h3, .closer {
         font-size: 18px;
     }
 
-    #main iframe {
+    #main .top iframe {
         height: 75px;
         width: 75px;
     }
